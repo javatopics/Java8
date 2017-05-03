@@ -9,8 +9,9 @@ public class Java8Demo {
 		Operator div=(a,b)-> {return a/b;};
 		
 		System.out.println(java8.operate(2,3,sum));
-		
-		
+		System.out.println(java8.operate(10, 6, sub));
+		System.out.println(java8.operate(9, 3, div));
+	
 	}
 	
 	public int operate(int a,int b,Operator o){
